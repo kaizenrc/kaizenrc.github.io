@@ -19,3 +19,7 @@ Validation: SVG parses as XML; desktop assets loaded and no horizontal overflow;
 Recovery: revert this refresh commit, push main, and verify the previous GitHub Pages build. Animated SVG is local and can be replaced by the existing static banner.
 
 Sources checked 2026-10-11: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion ; https://docs.github.com/en/account-and-profile/reference/profile-reference .
+
+## Personal hosting migration, 11 October 2026
+
+The personal account KaizenxRyu owns the new portfolio repository and Pages site. Its initial live deployment was opened in the browser and all three image assets loaded. This repository now serves a static redirect with a canonical URL and fallback link to https://kaizenxryu.github.io/. Original source is preserved in Git history; existing assets remain. Redirect live verification is pending this release deployment.

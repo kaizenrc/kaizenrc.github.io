@@ -1,19 +1,9 @@
-# Rahul Chamoli | Kaizen-Ryu
+# Retired portfolio address
 
-A personal portfolio for AI engineering, Azure automation and product development. Static HTML and CSS, with no package dependencies or build step.
+The personal portfolio now lives at https://kaizenxryu.github.io/ in KaizenxRyu/KaizenxRyu.github.io.
 
-## Run and deploy
+This repository preserves the original portfolio history and serves a static redirect from the former address. Original image assets and styles are retained. No company application code, repository permissions or account settings were changed.
 
-Open index.html locally, or publish the repository root through GitHub Pages on the main branch. Assets are stored in assets/. No tracking, cookies, contact-form backend or API keys are included. Contact links open LinkedIn.
+Publish main at the root with GitHub Pages. There is no build step or dependency. index.html contains the canonical link, meta refresh and a visible fallback link.
 
-## Content
-
-Kaizen-Ryu is presented as ongoing work, not a finished public product. Future case studies should include permissions, a reproducible demo and measured results before publication.
-
-## Recovery
-
-Revert the source commit and redeploy main. The Git repository stores all files required to reconstruct the site. Local research and release screenshots remain outside the repository.
-
-## Motion
-
-assets/kaizenxryu-motion.svg is a self-contained code-authored illustration. Its welcome motion and the portrait orbit settle after 4.8 seconds; reduced-motion preferences disable them. Edit the SVG or styles.css directly. The real portrait remains still.
+Recovery: revert the redirect release commit and push main; the original portfolio remains available in Git history. Do not delete this repository while old public links still depend on its redirect.
