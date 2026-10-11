@@ -14,7 +14,7 @@ Next owner: Rahul reviews the presentation and supplies publishable project case
 
 Rahul renamed his personal account to KaizenxRyu and chose Rahul Chamoli as display name. Portfolio GitHub links now use that handle. A self-contained SVG adds a navy/gold circuit illustration with a 4.8-second welcome animation that settles; the portrait orbit also settles. Both respect prefers-reduced-motion. No scripts, tracking, external fonts or new dependencies were added.
 
-Validation: SVG parses as XML; desktop assets loaded and no horizontal overflow; 390px layout has no horizontal overflow and all images loaded; no old GitHub links or em dashes. In browser SVG preview, the ring computed transform was non-identity just after reload and identity after settling, with animation-name orbit and duration 4.8s. Deployment verification pending before release completion.
+Validation: SVG parses as XML; desktop assets loaded and no horizontal overflow; 390px layout has no horizontal overflow and all images loaded; no old GitHub links or em dashes. In browser SVG preview, the ring computed transform was non-identity just after reload and identity after settling, with animation-name orbit and duration 4.8s. Deployment verified: GitHub Pages reported built with no error for 5209d98c42c7ede8ded0d3de9d02750ce57910e3. The public browser loaded the SVG and showed both GitHub links using KaizenxRyu, with no horizontal overflow.
 
 Recovery: revert this refresh commit, push main, and verify the previous GitHub Pages build. Animated SVG is local and can be replaced by the existing static banner.
 
